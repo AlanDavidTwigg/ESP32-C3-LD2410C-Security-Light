@@ -15,14 +15,13 @@
 #include <DallasTemperature.h>
 
 
-
 // --- Configuration ---
-const char* ssid     = "espdevnet";
-const char* password = "ac6e882db2";
+const char* ssid     = "XXXXXXXX";
+const char* password = "XXXXXXXX";
 const char* hostName = "esp32-C3_ld2410C_SecurityLight_V1";
 bool cpu = false;
 // --- Syslog Configuration ---
-const char* SYSLOG_HOST = "192.168.1.235";
+const char* SYSLOG_HOST = "192.168.XXX.XXX";
 const uint16_t SYSLOG_PORT = 514;
 WiFiUDP syslogUdp;
 
